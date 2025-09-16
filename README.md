@@ -45,21 +45,20 @@ Make sure you have installed:
 ### Installation
 
 
-# Clone the repository
+## Clone the repository
 git clone <repository-url>
 
-# Navigate to project folder
+## Navigate to project folder
 cd <project-folder>
 
 # Install dependencies
 npm install
 
-# Start the application
+## Start the application
 npm run dev
 
-##  Project Structure
+Open your browser at: http://localhost:3000
 
-```text
 |-- server              # Backend server
 ├── src
 │   ├── assets          # Images and global resources
@@ -73,7 +72,59 @@ npm run dev
 ├── public              # Static files
 └── README.md           # Project documentation
 
+## Backend Server
 
+The backend is built with Express and provides:
 
+Recipe fetching from TheMealDB API
 
+Favorite management (add, remove, fetch)
 
+Automatic port handling if the default port is taken
+
+The server starts automatically when running:
+
+npm run dev
+
+## Tech Stack
+
+Vue.js – Frontend framework
+
+TypeScript – Strongly typed JavaScript
+
+Vue Router – Page routing & navigation
+
+Axios – API requests
+
+Express – Lightweight backend server
+
+Concurrently – Run client & server together
+
+Local Storage – Store favorites in the browser
+
+## How to Contribute
+
+Fork the repo & clone it locally.
+
+Create a new branch for your feature:
+
+git checkout -b feature/new-awesome-feature
+
+Commit your changes and push to your fork.
+
+Create a pull request 
+
+## Ideas for Future Improvements
+
+Improve API error handling
+
+Add global state management (e.g., Pinia or Vuex)
+
+Write unit tests for components and composables
+
+Polish UI/UX for a smoother experience
+
+## Author
+
+Developed by Zabi.
+This project was created as part of a course and serves as a foundation for learning Vue.js and TypeScript.
