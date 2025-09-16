@@ -57,8 +57,9 @@ npm install
 # Start the application
 npm run dev
 
-## Project Structure
+##  Project Structure
 
+```text
 |-- server              # Backend server
 ├── src
 │   ├── assets          # Images and global resources
@@ -71,6 +72,7 @@ npm run dev
 │   └── App.vue         # Root component
 ├── public              # Static files
 └── README.md           # Project documentation
+
 
 
 ## Backend Server
