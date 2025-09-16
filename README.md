@@ -58,6 +58,7 @@ npm install
 npm run dev
 
 ## Project Structure
+
 |-- server              # Backend server
 ├── src
 │   ├── assets          # Images and global resources
@@ -70,6 +71,7 @@ npm run dev
 │   └── App.vue         # Root component
 ├── public              # Static files
 └── README.md           # Project documentation
+
 
 ## Backend Server
 The backend is built with Express and provides:
