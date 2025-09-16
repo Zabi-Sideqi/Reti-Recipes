@@ -59,6 +59,8 @@ npm run dev
 
 Open your browser at: http://localhost:3000
 
+## Project Structure
+
 |-- server              # Backend server
 ├── src
 │   ├── assets          # Images and global resources
@@ -72,7 +74,7 @@ Open your browser at: http://localhost:3000
 ├── public              # Static files
 └── README.md           # Project documentation
 
- Backend Server
+ ## Backend Server
 
 The backend is built with Express and provides:
 
@@ -86,7 +88,7 @@ The server starts automatically when running:
 
 npm run dev
 
-  Tech Stack
+ ## Tech Stack
 
 Vue.js – Frontend framework
 
@@ -102,7 +104,7 @@ Concurrently – Run client & server together
 
 Local Storage – Store favorites in the browser
 
- How to Contribute
+##  How to Contribute
 
 Fork the repo & clone it locally.
 
@@ -114,7 +116,7 @@ Commit your changes and push to your fork.
 
 Create a pull request 
 
- Ideas for Future Improvements
+## Ideas for Future Improvements
 
 Improve API error handling
 
@@ -124,7 +126,7 @@ Write unit tests for components and composables
 
 Polish UI/UX for a smoother experience
 
- Author
+ # Author
 
 Developed by Zabi.
 This project was created as part of a course and serves as a foundation for learning Vue.js and TypeScript.
