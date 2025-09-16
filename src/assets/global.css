@@ -1,0 +1,104 @@
+/* src/assets/styles/global.scss */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+.button {
+  color: #ff8c00; /* Orange text */
+  background: transparent; /* Ingen bakgrund */
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  border: solid 1px black; /* Svart border */
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  transform: scale(1.05); /* Lätt förstoring vid hovring */
+  background: rgba(0, 0, 0, 0.1); /* Transparent svart bakgrund vid hovring */
+}
+
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Specifik styling för mobilknappar */
+@media (max-width: 768px) {
+  .button {
+    padding: 6px 10px; /* Mindre padding */
+    font-size: 0.9rem; /* Mindre textstorlek */
+  }
+
+  /* Extra styling för mobilfavoritknapp */
+  .favorite-btn {
+    font-size: 1.5rem; /* Gör hjärtikonen större */
+    border: none; /* Ta bort kant */
+    background-color: transparent;
+  }
+
+  .favorite-btn:hover {
+    transform: scale(1.2); /* Förstora hjärtikonen vid hovring */
+  }
+
+  .read-more-btn {
+    font-size: 0.85rem; /* Mindre textstorlek */
+  }
+}
+/* src/assets/styles/global.scss */
+
+/* Grundteman */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-bg: #ff8c00;
+  --button-text: #ffffff;
+  --button-border: #000000;
+}
+
+[data-theme='dark'] {
+  --bg-color: #7d7979;
+  --text-color: #ffffff;
+  --button-bg: #444444;
+  --button-text: #ffffff;
+  --button-border: #ffffff;
+}
+
+/* Globala stilar */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Knappstilar */
+.button {
+  color: var(--button-text);
+  background: var(--button-bg);
+  border: 1px solid var(--button-border);
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Specifika mobilstilar */
+@media (max-width: 768px) {
+  .button {
+    padding: 6px 10px;
+    font-size: 0.9rem;
+  }
+}
