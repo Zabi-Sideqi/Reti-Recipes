@@ -59,18 +59,20 @@ npm run dev
 
 Open your browser at: http://localhost:3000
 
-|-- server              # Backend server
-├── src
-│   ├── assets          # Images and global resources
-│   │   └── screenshots # Screenshots for README
-│   ├── components      # Vue components
-│   ├── composables     # Reusable logic (custom hooks)
-│   ├── router          # Vue Router configuration
-│   ├── types           # TypeScript type definitions
-│   ├── views           # Page components
-│   └── App.vue         # Root component
-├── public              # Static files
-└── README.md           # Project documentation
+**Project Structure**
+server/                  # Backend server
+├── src/
+│   ├── assets/          # Images and global resources
+│   │   └── screenshots/ # Screenshots for README
+│   ├── components/      # Vue components
+│   ├── composables/     # Reusable logic (custom hooks)
+│   ├── router/          # Vue Router configuration
+│   ├── types/           # TypeScript type definitions
+│   ├── views/           # Page components
+│   └── App.vue          # Root component
+├── public/              # Static files
+└── README.md            # Project documentation
+
 
 ## Backend Server
 
