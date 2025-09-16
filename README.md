@@ -75,49 +75,5 @@ npm run dev
 
 
 
-## Backend Server
-The backend is built with Express and provides:
 
-Recipe fetching from TheMealDB API
-
-Favorite management (add, remove, fetch)
-
-Automatic port handling if the default port is taken
-The server starts automatically when running:
-### npm run dev
-
-## Tech Stack
-Vue.js – Frontend framework
-
-TypeScript – Strongly typed JavaScript
-
-Vue Router – Page routing & navigation
-
-Axios – API requests
-
-Express – Lightweight backend server
-
-Concurrently – Run client & server together
-
-Local Storage – Store favorites in the browser
-
-## How to Contribute
-1. Fork the repo & clone it locally.
-2. Create a new branch for your feature:
-### git checkout -b feature/new-awesome-feature
-3. Commit your changes and push to your fork.
-4. Create a pull request
-
-## Ideas for Future Improvements
-. Improve API error handling
-
-. Add global state management (e.g., Pinia or Vuex)
-
-. Write unit tests for components and composables
-
-. Polish UI/UX for a smoother experience
-
-## Author
-Developed by Zabi.
-This project was created as part of a course and serves as a foundation for learning Vue.js and TypeScript.
 
